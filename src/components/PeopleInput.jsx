@@ -18,7 +18,7 @@ export function PeopleInput({
   handlePeopleChange,
   peopleNumber,
 }) {
-  const isError = peopleNumber === 0;
+  const isError = peopleNumber === "0";
 
   return (
     <Box>
